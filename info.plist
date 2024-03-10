@@ -21,19 +21,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>B68DF1BC-DD66-41DF-AEA6-F850B1D38EDA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BC44578E-CBED-4CEB-BBAF-FC8EAD103F48</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Andrey Osiyuk</string>
@@ -45,76 +32,6 @@
 	<string>npm search</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>n</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>1</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Searching...</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>npm-registry.sh</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search npm registry</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>B68DF1BC-DD66-41DF-AEA6-F850B1D38EDA</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>BC44578E-CBED-4CEB-BBAF-FC8EAD103F48</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -164,6 +81,27 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BC44578E-CBED-4CEB-BBAF-FC8EAD103F48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Adds "npm" command that will search npm registry for packages with quicklook menu for homepage.</string>
@@ -174,14 +112,7 @@
 			<key>xpos</key>
 			<real>265</real>
 			<key>ypos</key>
-			<real>465</real>
-		</dict>
-		<key>B68DF1BC-DD66-41DF-AEA6-F850B1D38EDA</key>
-		<dict>
-			<key>xpos</key>
-			<real>265</real>
-			<key>ypos</key>
-			<real>315</real>
+			<real>380</real>
 		</dict>
 		<key>BC44578E-CBED-4CEB-BBAF-FC8EAD103F48</key>
 		<dict>
